@@ -2,7 +2,6 @@ import { Categories } from "@/components/Categories";
 import Companions from "@/components/Companions";
 import SearchInput from "@/components/SearchInput";
 import prismadb from "@/lib/prismadb";
-import { UserButton } from "@clerk/nextjs";
 
 interface RootPageProps {
   searchParams: {
