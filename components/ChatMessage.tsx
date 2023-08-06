@@ -34,7 +34,7 @@ export const ChatMessage = ({ role, content, isLoading, src }: ChatMessageProps)
   return (
     <div
       className={cn(
-        "group flex items-center gap-x-3 py-4 w-full",
+        "group flex items-start gap-x-3 py-4 w-full",
         role === "user" && "justify-end"
       )}
     >
